@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: aqua;
+    line-height: 1.5rem;
+}
+
+.pro{
+    display: flex;
+    gap: 2px;
+   
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 222, 129);
+    align-items: center;
+}
+
+.artic{
+    flex: 3;
+}
+.asid{
+    flex: 1;
+    background-color: rgb(221, 191, 250);
+    border-top:10px solid rgb(7, 7, 6) ;
+    border-bottom:3px solid rgb(27, 27, 21) ;
+    
+}
+.head1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(177, 238, 192);
+    align-items: center;
+}
+.product-detail{
+    display: flex;
+    background-color:rgb(200, 248, 250);
+    line-height: 1.5rem;
+}
+.list-details{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(205, 249, 255);
+    line-height: 1.5rem;
+    
+}
+.product{
+    background-color: aqua;
+}
+h2{
+    margin: 10px;
+}
+
+.list1{
+    flex: 1;
+    line-height: 1rem;
+}
+.list2{
+    flex: 1;
+}
+.list3 li{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(236, 78, 78);
+}
+a:hover{
+    color: rgb(172, 164, 247);
+    font-weight: bold;
+    font-size:25px ;
+}
+.pic{
+    flex:1;
+}
+.list{
+    flex: 1;
+}
+.marc{
+    background-color: aqua;
+    width: 100%;
+}
+nav{
+    word-spacing: 30px;
+}
